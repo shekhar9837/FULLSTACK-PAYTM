@@ -1,3 +1,3 @@
-const JWT_SCRET="SHEKHAR"
+const JWT_SECRET="SHEKHAR"
 
-module.exports = JWT_SCRET;
+module.exports = JWT_SECRET;
