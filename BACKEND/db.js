@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const mongoURL = process.env.MONGODB_URL;
 
-mongoose.connect("mongodb+srv://mauryachandrashekhar66:GpW2wDeR3GLxU20L@cluster0.qur8sme.mongodb.net/");
+mongoose.connect(mongoURL);
 
 const userSchema = new mongoose.Schema({
   username: {
